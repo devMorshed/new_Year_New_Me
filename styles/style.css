@@ -62,7 +62,7 @@
 
 /* ---------------     failure section style    ----------- */
 
-.sec-failures, .section-plan{
+.sec-failures, .section-plan, .section-suggestion{
   width: 70%;
   margin: 10rem auto;
 }
@@ -118,7 +118,7 @@
 
 .mindset-box{
   text-align: start;
-  background-image: url(../images/watch.png), url(../images/gradient3.png);
+  background-image: url(../images/watch.png), linear-gradient(to right, #f05933, rgb(255, 151, 125));
   background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,4 +130,44 @@
   color: white;
   width: 40%;
   padding: 2rem;
+}
+
+/* suggestion(bonus) section */
+
+.section-suggestion{
+  text-align: center;
+}
+
+.contact-form{
+  font-size: 1.5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  background: #f05933;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+
+.form-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+}
+
+.form-row input{
+  width: 45%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.txt-area{
+  text-align: center;
+  width: 93%;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
 }
