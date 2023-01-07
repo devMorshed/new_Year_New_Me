@@ -61,9 +61,9 @@
 
 /* ---------------     failure section style    ----------- */
 
-.sec-failures{
+.sec-failures, .section-plan{
   width: 70%;
-  margin: 5rem auto;
+  margin: 10rem auto;
 }
 
 
@@ -88,6 +88,29 @@
 
 .section-heading{
   font-size: 3rem;
+  margin: 2rem 0;
 }
 
 /* ---------------     plan section style    ----------- */
+
+.section-plan{
+  text-align: center;
+}
+
+.plan-box{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5rem auto;
+}
+
+.plan-heading{
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.plan-info{
+  font-size: 1.5rem;
+  margin: .5rem;
+  color: rgb(47, 47, 47);
+}
