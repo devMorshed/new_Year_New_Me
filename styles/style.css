@@ -7,6 +7,9 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+
+/* ---------------     header section style    ----------- */
+
 .banner{
   height: 90vh;
   display: flex;
@@ -54,3 +57,37 @@
   background-color: white;
   color: rgb(240, 89, 51);
 }
+
+
+/* ---------------     failure section style    ----------- */
+
+.sec-failures{
+  width: 70%;
+  margin: 5rem auto;
+}
+
+
+.flex-container{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  column-gap: 10rem;
+}
+
+
+.failure-list{
+  list-style: none;
+  margin: 1rem .2rem;
+}
+
+.failure-item{
+  padding: .5rem;
+  margin: .5rem;
+  font-size: 1.2rem;
+}
+
+.section-heading{
+  font-size: 3rem;
+}
+
+/* ---------------     plan section style    ----------- */
